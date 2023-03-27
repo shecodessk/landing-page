@@ -9,35 +9,49 @@
   </head>
   <body>
     <header>
-      <img src="#" alt="Header Logo" />
-      <ul>
+      <img class="header--logo" src="#" alt="Header Logo" />
+      <ul class="header--links">
         <li>header link one</li>
         <li>header link two</li>
         <li>header link three</li>
       </ul>
-
-      <h1 class="header--title">This website is awesome</h1>
-      <p>this website has some subtext that fgoes here under the main title.</p>
-      <button>Sign up</button>
-      <img src="#" placeholder="this is a placeholder for an image" />
     </header>
+    <section class="hero">
+      <div class="hero--div hero--left">
+        <h1 class="hero--title">This website is awesome</h1>
+        <p class="hero--text">
+          this website has some subtext that goes here under the main title.
+          It's a smaller font and the color is lower contrast.
+        </p>
+        <button class="hero--button">Sign up</button>
+      </div>
+      <div class="hero--div">
+        <img
+          class="hero--image"
+          src="office-work.jpg"
+          placeholder="this is a placeholder for an image"
+        />
+      </div>
+    </section>
     <section>
-      <h2>Some randome information.</h2>
-      <div>
-        <img src="#" />
-        <p>subtext under image</p>
-      </div>
-      <div>
-        <img src="#" />
-        <p>subtext under image</p>
-      </div>
-      <div>
-        <img src="#" />
-        <p>subtext under image</p>
-      </div>
-      <div>
-        <img src="#" />
-        <p>subtext under image</p>
+      <h2 class="information--title">Some random information.</h2>
+      <div class="information--container">
+        <div class="information--sub--container">
+          <img class="information--image" src="images/image1.jpg" />
+          <p class="information--text">subtext under image</p>
+        </div>
+        <div class="information--sub--container">
+          <img class="information--image" src="images/image2.jpg" />
+          <p>subtext under image</p>
+        </div>
+        <div class="information--sub--container">
+          <img class="information--image" src="images/image3.jpg" />
+          <p>subtext under image</p>
+        </div>
+        <div class="information--sub--container">
+          <img class="information--image" src="images/image4.jpg" />
+          <p>subtext under image</p>
+        </div>
       </div>
     </section>
     <section>
